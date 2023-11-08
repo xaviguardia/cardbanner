@@ -1,0 +1,155 @@
+.card-banner {
+  border-radius: 6px;
+  height: 196px;
+  overflow: hidden;
+  width: 335px;
+}
+
+.card-banner .overlap {
+  position: relative;
+}
+
+.card-banner .img-overlay {
+  height: 196px;
+  left: 0;
+  position: absolute;
+  width: 335px;
+}
+
+.card-banner .overlap-group {
+  height: 196px;
+  position: relative;
+}
+
+.card-banner .class {
+  background-image: url(https://c.animaapp.com/GdNYxRf4/img/imagecontainer-card-banner-2.svg) !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.card-banner .class-2 {
+  background-image: url(https://c.animaapp.com/GdNYxRf4/img/imagecontainer-card-banner.svg) !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.card-banner .overlay {
+  height: 196px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 335px;
+}
+
+.card-banner .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 0;
+  padding: 0px 0px 0px 16px;
+  position: absolute;
+  top: 0;
+}
+
+.card-banner .text {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  height: 156px;
+  justify-content: flex-end;
+  padding: 32px 0px 0px;
+  position: relative;
+}
+
+.card-banner .title {
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+  width: unset !important;
+}
+
+.card-banner .body-instance {
+  align-self: unset !important;
+  white-space: nowrap !important;
+  width: fit-content !important;
+}
+
+.card-banner .heading-3 {
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+  justify-content: flex-end !important;
+  width: unset !important;
+}
+
+.card-banner .heading-instance {
+  align-self: unset !important;
+  width: 280px !important;
+}
+
+.card-banner .button-alternative-instance {
+  margin-bottom: -492px !important;
+  margin-left: -1538px !important;
+}
+
+.card-banner .instance-node {
+  left: 16px !important;
+  position: absolute !important;
+  top: 156px !important;
+}
+
+.card-banner .button-alternative-2 {
+  margin-bottom: -274px !important;
+  margin-left: -1538px !important;
+}
+
+.card-banner .div {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 156px;
+  justify-content: flex-end;
+  left: 0;
+  padding: 32px 16px 16px;
+  position: absolute;
+  top: 0;
+  width: 335px;
+}
+
+.card-banner .instance-node-2 {
+  align-items: center !important;
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  justify-content: flex-end !important;
+  width: 100% !important;
+}
+
+.card-banner .instance-node-3 {
+  color: var(--filltextprimary) !important;
+}
+
+.card-banner .ambient-inverse {
+  height: 196px;
+}
+
+.card-banner .ambient-main {
+  height: 212px;
+  top: -16px;
+}
+
+.card-banner .overlap.ambient-inverse .img-overlay {
+  top: 0;
+}
+
+.card-banner .overlap.ambient-main .img-overlay {
+  top: 16px;
+}
+
+.card-banner .overlap.ambient-inverse .overlay {
+  background-color: #ffffff99;
+}
+
+.card-banner .overlap.ambient-main .overlay {
+  background-color: #1a1a1a80;
+}

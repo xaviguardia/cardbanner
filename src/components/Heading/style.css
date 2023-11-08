@@ -1,0 +1,76 @@
+.heading {
+  gap: 10px;
+  position: relative;
+}
+
+.heading .text-wrapper {
+  font-family: var(--content-heading-3-font-family);
+  font-size: var(--content-heading-3-font-size);
+  font-style: var(--content-heading-3-font-style);
+  font-weight: var(--content-heading-3-font-weight);
+  letter-spacing: var(--content-heading-3-letter-spacing);
+  line-height: var(--content-heading-3-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.heading.color-0-inverse {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading.alignment-0-left {
+  align-items: flex-start;
+  display: flex;
+}
+
+.heading.alignment-0-right {
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.heading.alignment-0-center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 302px;
+}
+
+.heading.color-0-standard.alignment-0-right {
+  display: inline-flex;
+}
+
+.heading.color-0-standard.alignment-0-left {
+  width: 335px;
+}
+
+.heading.color-0-inverse.alignment-0-right {
+  width: 280px;
+}
+
+.heading.color-0-inverse.alignment-0-left {
+  width: 280px;
+}
+
+.heading.color-0-standard .text-wrapper {
+  color: var(--filltextprimary);
+}
+
+.heading.color-0-inverse .text-wrapper {
+  align-self: stretch;
+  color: var(--filltextprimary-inverse);
+}
+
+.heading.alignment-0-right .text-wrapper {
+  align-self: stretch;
+  text-align: right;
+}
+
+.heading.alignment-0-center .text-wrapper {
+  align-self: stretch;
+  text-align: center;
+}
+
+.heading.color-0-standard.alignment-0-left .text-wrapper {
+  flex: 1;
+}

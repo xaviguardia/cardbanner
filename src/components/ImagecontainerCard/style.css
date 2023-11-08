@@ -1,0 +1,16 @@
+.imagecontainer-card {
+  background-image: url(https://c.animaapp.com/GdNYxRf4/img/imagecontainer-card-banner-3.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 196px;
+  position: relative;
+  width: 335px;
+}
+
+.imagecontainer-card .rectangle {
+  height: 196px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 335px;
+}

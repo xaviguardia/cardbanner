@@ -1,0 +1,53 @@
+.body {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.body .typography-content {
+  align-self: stretch;
+  font-family: var(--content-body-font-family);
+  font-size: var(--content-body-font-size);
+  font-style: var(--content-body-font-style);
+  font-weight: var(--content-body-font-weight);
+  letter-spacing: var(--content-body-letter-spacing);
+  line-height: var(--content-body-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.body.inverse {
+  display: flex;
+  width: 280px;
+}
+
+.body.left {
+  display: flex;
+  width: 280px;
+}
+
+.body.right {
+  display: flex;
+  width: 280px;
+}
+
+.body.standard.center {
+  display: inline-flex;
+}
+
+.body.standard .typography-content {
+  color: var(--filltextprimary);
+}
+
+.body.inverse .typography-content {
+  color: var(--filltextprimary-inverse);
+}
+
+.body.right .typography-content {
+  text-align: right;
+}
+
+.body.center .typography-content {
+  text-align: center;
+}
